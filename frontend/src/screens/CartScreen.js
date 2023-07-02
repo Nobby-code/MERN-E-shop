@@ -29,7 +29,8 @@ const CartScreen = () => {
 
     const checkoutHandler = () => {
         // check if the user is logged in if true redirect to shipping
-        navigate('/login?redirect=shipping')
+        // navigate('/login?redirect=shipping')
+        navigate('/shipping')
     }
 
     return (
